@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.nav {
+    background-color: white;
+    display: flex;
+    color: white;
+    padding: 16px 0;
+    text-align: right;
+    width: 100%;
+}
+
+.imagelogo {
+    display: flex;
+    flex: 1;
+    height: 50px;
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul li a {
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul :hover {
+    background-color: rgb(107, 80, 107);
+}
+
+
+.image1 {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.firstsection {
+    position: absolute;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 80px;
+
+}
+
+.firstsection button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(104, 2, 104);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
+
+.firstsection button:hover {
+    background-color: rgb(145, 0, 145);
+}
+
+.firstsection h2 {
+    color: rgb(105, 4, 105);
+}
+
+.text {
+    position: relative;
+    width: 30%;
+    color: black;
+    top: 150px;
+    text-align: left;
+    margin: right;
+    border-radius: 10px;
+    padding: 50px;
+
+}
+
+.image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    size: 10px;
+    width: 150px;
+    height: 90px;
+}
+
+h2 {
+    color: rgb(0, 0, 77);
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+#products {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.thirdsection {
+    color: white;
+    z-index: 1;
+    width: 100%;
+    background-image: url(images/bg.avif);
+    background-size: cover;
+    height: 100vh;
+}
+
+.thirdhsection p {
+    z-index: 1;
+    position: relative;
+}
+
+.logo {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    margin-bottom: 0px;
+
+
+
+}
+
+.understand {
+    margin-left: 0px;
+    text-align: left;
+    height: 30px;
+    border-radius: 0px;
+    border-radius: 0%;
+
+
+}
+
+.understand img {
+    border-radius: 50%;
+    width: 80%;
+    background-color: rgb(167, 158, 158);
+}
+
+.fourthsection {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    justify-content: space-around;
+    margin-left: 500px;
+    height: 50px;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    size: 10px;
+    width: 150px;
+    height: 90px;
+}
+
+.Fifthsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(212, 210, 210);
+    background-size: cover;
+    padding: 50px;
+
+}
+.Foundation{
+    margin-left: 500px;
+    text-align: justify;
+}
+
+
+.Smart-Data-Platform {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    width: auto;
+    border: 10px;
+    margin-left: 100px;
+}
+
+.Smart Business{
+    display: flex;
+    flex-direction: row;
+   
+   
+}
+.Smart-Business-Platform{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    text-align: left;
+    margin-right: 350px;;
+    padding-left: 200px;
+}
+ul {
+    padding-left: 0px;
+}
+.footer {
+    background-color: rgb(207, 203, 203);
+    color: black;
+    text-align: center;
+    padding: 15px;
+    bottom: 0;
+    width: 100%;
+    font-weight: bolder;
+  
+}
